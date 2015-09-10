@@ -1,0 +1,60 @@
+{% macro render_post(post) %}
+
+<div class="row">
+    <div class="col-md-1 text-right metadata">
+        {% if post.author.name %}
+        Posted by: {{ post.author.name.title()}} 
+        {% endif %}
+        <ul class="list-unstyled">
+            <li>
+                {{ post.datetime | dateformat("%d/%m/%y") }}
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-10">
+        <h1>
+         <a class="title" href="{{url_for('singlepost_get', id=post.id)}}">{{post.title}}</a>
+        </h1>
+             {{ post.description | safe }}
+             
+    </div>
+</div>
+{% endmacro %}
+{% macro render_comment(comment) %}
+<div class="row">
+    <div class="col-md-12 text-left metadata">        
+        <ul>                        
+                {{ comment.datetime | dateformat("%d/%m/%y") }}:       
+                {{ comment.author.name}} said:                           
+        </ul>
+
+    </div>
+    <div class="col-md-10">
+      <ul>{{ comment.content | safe }}</ul>
+    </div>
+</div>
+{% endmacro %}
+
+
+{% macro render_singlepost(post) %}
+
+<div class="row">
+    <div class="col-md-2 text-right metadata">
+        {% if post.author.name %}
+        Posted by: {{ post.author.name.title()}} 
+        {% endif %}
+        <ul class="list-unstyled">
+            <li>
+                {{ post.datetime | dateformat("%d/%m/%y") }}
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-10">
+        <h1>
+        <a class="title" href="{{url_for('singlepost_get', id=post.id)}}">{{post.title}}</a>
+        </h1>
+             {{ post.content | safe }}
+             
+    </div>
+</div>
+{% endmacro %}

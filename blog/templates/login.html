@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>TeamForum. A team management software.</h3> 
+<br>
+<h4>Login to participate.</h4>
+<br>
+<form role="form" method="POST">
+    <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Email address" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+<br><br>
+
+{% endblock %}

@@ -1,0 +1,37 @@
+{% import "macros.html" as macros %}
+{% extends "base.html" %}
+{% block content %}
+
+{{ macros.render_singlepost(post) }}
+{% if current_user.id == post.author.id or current_user.email == admin.email %}   
+<br>
+<a href= "{{url_for('editpost', id=id)}}">Edit Forum</a>
+<a href= "{{url_for('deletepost', id=id)}}">Delete Forum</a>
+{% endif %}
+<br>
+<br>
+<h4><strong>Comments for this post: </strong></h4>
+
+{%for comment in comments %}
+{{macros.render_comment(comment)}}
+{% if current_user.id == comment.author.id or current_user.email == admin.email %} 
+<a href= "{{url_for('editComment', comment_id=comment.id)}}">Edit</a>
+<a href= "{{url_for('deleteComment', comment_id=comment.id)}}">Delete</a>
+{% endif %}
+{% endfor %}
+
+{% if not current_user.is_authenticated() %}  
+<br>
+<br>
+<h4>Login to comment:</h4>
+{% endif %}
+<form role="form" method="POST">
+
+    <div class="form-group">
+        <label for="content"></label>
+        <textarea class="form-control" id="content" name="content" placeholder="Add comment" rows="8"></textarea>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>
+    Edit Comment
+</h3>
+
+<form role="form" method="POST">
+    <div class="form-group">
+        <label for="content">Content</label>
+        <textarea class="form-control" id="content" name="content" rows="20" required>{{p.content}}</textarea>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+    <a href = "{{url_for('posts', id=p.id)}}">Cancel</a>
+</form>
+{% endblock %}
