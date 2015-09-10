@@ -9,7 +9,7 @@ class NewConfig(object):
     SQLALCHEMY_DATABASE_URI = "postgresql://francis:gameli20@localhost:5432/teamforum2"
     DEBUG = True
     SECRET_KEY = os.environ.get("BLOGFUL_SECRET_KEY", "")
-    MAIL_PASSWORD = "noahtando0415" #os.environ.get("GMAIL_PASSWORD")
+    MAIL_PASSWORD =  os.environ.get("GMAIL_PASSWORD")
     MAIL_SERVER ='smtp.gmail.com'
     MAIL_PORT = 465
     MAIL_USERNAME = 'kesfrance@gmail.com'
