@@ -18,7 +18,7 @@
 </li>
 <li><p>All members who have signed up to be in the team will be notified by email immediately you create a new forum. The email notification is made up of the title of the post you have created plus 30 characters  in the description you gave the post. Usually, the description should be short and should provide a brief overview of the content of the forum. Members can then log into TeamForum to see the full post and make their contributions.</p>
 </li>
-<li><p>When you start participating in a forum, you will be recorded as a member in that forum. You will receive email notifications (as above) from that forum when every other member in that particular forum makes a contribution. People in the team who have not contributed to a particular forum will not receive any notifications about that forum.</p>
+<li><p>When you start participating in a forum, you will be recorded as a member in that forum. You will receive email notifications (as above) from that forum when every other member in that particular forum makes a contribution. People in the team who have not contributed to a particular forum will not receive any notifications about post made by people in that forum.</p>
 </li>
 <li><p>You can start as many post as possible and comment in forums  unlimited number of times.</p>
 </li>
@@ -26,7 +26,7 @@
 <li><p>There is a time stamp on every post you made. So new posts are placed at the top. And every post you edit get promoted to the top so members can see it quickly.</p>
 </li>
 </li>
-<li><p>TeamFurom uses a Markdown down parser called Mistune. So you can format your post nicely using Markdown tags.</p>
+<li><p>TeamFurom uses a Markdown down parser called Mistune and you can format your post nicely using Markdown tags.</p>
 </li>
 <li><p>You can access the raw post from a forum in JSON format. But you must be logged in first to be able to do this.</p>
 <pre><code>     To access all post: 
