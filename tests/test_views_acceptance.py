@@ -7,7 +7,6 @@ from urlparse import urlparse
 from werkzeug.security import generate_password_hash
 from splinter import Browser
 
-# Configure app to use the testing database
 os.environ["CONFIG_PATH"] = "blog.config.TestingConfig"
 
 from blog import app

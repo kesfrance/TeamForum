@@ -12,7 +12,6 @@ from blog.filters import *
 
 class FilterTests(unittest.TestCase):
     def test_date_format(self):
-        # Tonight we're gonna party...
         date = datetime.date(1999, 12, 31)
         formatted = dateformat(date, "%y/%m/%d")
         self.assertEqual(formatted, "99/12/31")
