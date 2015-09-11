@@ -1,6 +1,8 @@
 ##TeamForum
 
-<p><a href="/http://teamforum.pythonanywhere.com">A Team Management Application</a></p> 
+###A Team Management Application
+
+<p><a href="/http://teamforum.pythonanywhere.com">Visit the website</a></p> 
 
 <p><strong> Developer: Francis Kessie</strong></p>
 
