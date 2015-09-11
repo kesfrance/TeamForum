@@ -39,7 +39,11 @@ def posts(page=1, paginate_by=5):
         total_pages=total_pages,
         admin = admin
     )
+
 @app.route("/")
+def main():
+    return redirect(url_for("login_get"))
+
 @app.route("/login", methods=["GET"])
 def login_get():
     return render_template("login.html")

@@ -8,7 +8,7 @@ env:
 before_script:
     - psql -c 'create database "blogfultest";' -U postgres
 script:
-    - PYTHONPATH=. python tests/test_filters.py
+    - PYTHONPATH=. python tests/test_filter.py
     - PYTHONPATH=. python tests/test_views_integration.py
     - PYTHONPATH=. python tests/test_views_acceptance.py
     - PYTHONPATH=. python tests/test_api.py
