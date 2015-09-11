@@ -2,7 +2,7 @@
 
 ###A Team Management Application
 
-<p><a href="/http://teamforum.pythonanywhere.com">Visit the website</a></p> 
+<p><a href="/www.http://teamforum.pythonanywhere.com">Visit the website</a></p> 
 
 <p><strong> Developer: Francis Kessie</strong></p>
 
