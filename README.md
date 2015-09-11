@@ -2,8 +2,6 @@
 
 ###A Team Management Application
 
-<p><a href="/www.http://teamforum.pythonanywhere.com/">Visit the website</a></p> 
-
 <p><strong> Developer: Francis Kessie</strong></p>
 
 <p><strong>Hi, Welcome to TeamForum.</strong></p>
@@ -38,10 +36,5 @@
 </li>
 </ol>
 <p> I am sure you can already see what you can use TeamForum for. I personally use TeamForum to communicate with the members of my social club. This is the alpha version of the software. I will be glad to receive your comments and suggestions about new features and bugs. Just shoot me a mail @kesfrance@yahoo.com,  i will be glad to hear from you.</p> 
-<br>
-<br>
-<p>Thanks for signing up to have a look.</p>
-<br>
-<br>
-<br>
+
 
