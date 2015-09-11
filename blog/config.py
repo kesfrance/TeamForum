@@ -6,7 +6,7 @@ class DevelopmentConfig(object):
     SECRET_KEY = os.environ.get("BLOGFUL_SECRET_KEY", "")
 
 class NewConfig(object):
-    SQLALCHEMY_DATABASE_URI = "postgresql://francis:gameli20@localhost:5432/teamforum2"
+    SQLALCHEMY_DATABASE_URI = "postgresql://francis:xxx@localhost:5432/teamforum2"
     DEBUG = True
     SECRET_KEY = os.environ.get("BLOGFUL_SECRET_KEY", "")
     MAIL_PASSWORD = os.environ.get("GMAIL_PASSWORD")
@@ -17,12 +17,12 @@ class NewConfig(object):
     MAIL_USE_SSL = True
 
 class TestingConfig(object):
-    SQLALCHEMY_DATABASE_URI = "postgresql://francis:gameli20@localhost:5432/teamforumtest"
+    SQLALCHEMY_DATABASE_URI = "postgresql://francis:xxx@localhost:5432/teamforumtest"
     DEBUG = False
     SECRET_KEY = "Not secret"
     DEBUG = True
     SECRET_KEY = os.environ.get("BLOGFUL_SECRET_KEY", "")
-    MAIL_PASSWORD = noahtando0415 #os.environ.get("GMAIL_PASSWORD")
+    MAIL_PASSWORD = os.environ.get("GMAIL_PASSWORD")
     MAIL_SERVER ='smtp.gmail.com'
     MAIL_PORT = 465
     MAIL_USERNAME = 'kesfrance@gmail.com'
