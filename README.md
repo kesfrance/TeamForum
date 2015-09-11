@@ -4,7 +4,7 @@
 
 <p><strong> Developer: Francis Kessie</strong></p>
 
-<p><stong>website: www.http://teamforum.pythonanywhere.com</strong></p>
+<p><stong>website: http://teamforum.pythonanywhere.com</strong></p>
 
 <p><strong>Hi, Welcome to TeamForum.</strong></p>
 <p>TeamForum is a software I developed to help people organize and manage their teams better. Effective communication is key to successful team management. Then,  I firmly believe that a well organized team is a winning team and would likely achieve more than a poorly organized one.</p>
