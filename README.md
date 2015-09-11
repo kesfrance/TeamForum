@@ -2,6 +2,8 @@
 
 ###A Team Management Application
 
+<p><strong> Developer: Francis Kessie</strong></p>
+
 <p><strong>Hi, Welcome to TeamForum.</strong></p>
 <p>TeamForum is a software I developed to help people organize and manage their teams better. Effective communication is key to successful team management. Then,  I firmly believe that a well organized team is a winning team and would likely achieve more than a poorly organized one.</p>
 <p>Whether you are planning a field trip, organizing a program, or just for your day to day communication with colleagues and employees in your department or entire company, TeamForum can help you communicate better. The software uses a micro-blogging style of communication to promote interaction amongst members. </p>
@@ -40,4 +42,4 @@
 <br>
 <br>
 <br>
-<p><strong> Francis Kessie</strong></p>
+
