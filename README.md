@@ -7,7 +7,7 @@
 <p><stong>website: http://teamforum.pythonanywhere.com</strong></p>
 
 <p><strong>Hi, Welcome to TeamForum.</strong></p>
-<p>TeamForum is a software I developed to help people organize and manage their teams better. Effective communication is key to successful team management. Then,  I firmly believe that a well organized team is a winning team and would likely achieve more than a poorly organized one.</p>
+<p>TeamForum is a program I am developing to help people organize and manage their teams better. I have an idea to create an application for managing teams that I lead, now i am begining to put it into code. Effective communication is key to successful team management. Then,  I firmly believe that a well organized team is a winning team and would likely achieve more than a poorly organized one.</p>
 <p>Whether you are planning a field trip, organizing a program, or just for your day to day communication with colleagues and employees in your department or entire company, TeamForum can help you communicate better. The software uses a micro-blogging style of communication to promote interaction amongst members. </p>
 
 <p><strong>I have listed some features of TeamForum below. Please have a look.</strong></p>
@@ -37,6 +37,6 @@
 </code></pre>
 </li>
 </ol>
-<p> I am sure you can already see what you can use TeamForum for. I personally use TeamForum to communicate with the members of my social club. This is the alpha version of the software. I will be glad to receive your comments and suggestions about new features and bugs. Just shoot me a mail @kesfrance@yahoo.com,  i will be glad to hear from you.</p> 
+<p> I am sure you can already see what you can use TeamForum for. I personally use TeamForum to communicate with the members of my social club. This is the initial part of the software, and will be releasing a more sophisticated version shortly. I will be glad to receive your comments and suggestions about new features and bugs. Just shoot me a mail @kesfrance@yahoo.com,  i will be glad to hear from you.</p> 
 
 
