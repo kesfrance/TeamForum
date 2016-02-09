@@ -3,13 +3,39 @@ h1, h2, h3, h4 {color: #052463;}
 .container {padding: 0.8em; width: 80em;}
 
 .title {font-size: 0.5em;}
-    
-body {font-weight: normal; font-size: 1.3em; 
-     font-family: "Open Sans", "Helvetica Neue", sans-serif;
-     background-color:#CCFFFF;} 
-    
-    
-    
-    
 
-    
+
+body {font-weight: normal; font-size: 1.3em;
+     font-family: "Open Sans", "Helvetica Neue", sans-serif;
+     background-color:#F8F8FF;}
+
+.authbox {background-color: #2A6496}
+
+.actionbox {background-color: #E0E0E0; border: solid 2px; border-color: #E8E8E8 ;
+    width:40%; min-height: 40px; position:absolute; left: 0 ;right:0; margin-left:auto; margin-right:auto;
+    font-size: 0.8em; }
+
+ .actionbox a {color: #666262}
+
+ td.login {font-weight: bold; font-size: 20px}
+ .actionbox td {padding-left: 20px}
+
+.signupbox {padding-left: 30px; line-height: 170%; }
+.signuptext {position:absolute; right:10%}
+
+.btn {display: inline-block; border-radius: 4px;background-color: #008CBA; border: none;color: #FFFFFF;text-align: center;font-size: 15px;
+  padding: 8px;width: 80px;transition: all 0.5s;cursor: pointer;margin: 5px;}
+
+.btn span {cursor: pointer;display: inline-block;position: relative;transition: 0.5s;}
+
+.btn span:after {position: absolute;opacity: 0;}
+
+.messageflash1{ font-size:12px; width: 30%; height: 1.8em; text-align:center;
+	   ;position:relative; left: 0 ;right:0; margin-left:auto; margin-right:auto;}
+
+.headbanner {background-color:#2A6496;; width: 100%; color: #FFF; height: 30px;
+padding-top: 10px; font-weight: bold; font-size: 16px}
+.title {font-size: 0.5em;}
+
+}
+

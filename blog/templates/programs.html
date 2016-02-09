@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block content %}
+
+<style>
+.programstable thead tr th, .programstable tbody tr th {
+	background-color: #184D8C;
+	border: 1px solid black;
+	font-size: 14px;
+	padding: 8px;
+    border-collapse: collapse
+}
+.programstable tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+.programstable th {height:20px}
+
+
+</style>
+
+<script>
+$(document).ready(function(){
+   alert('The program page is under Construction');
+});
+
+</script>
+<h1>Upcommming Programs</h1>
+
+
+   
+ <div class="table-responsive"> 
+  <table class="table table-hover table-bordered programstable">
+    <thead>
+      <tr>
+        <th>Program Date</th>
+        <th>Program Name</th>
+        <th>Program Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>12-10-2016</td>
+        <td><a href="{{url_for('single_program', id=2)}}">Achievers Seminar</a></td>
+        <td>A two day information and networking meeting for youths</td>
+      </tr>
+      <tr>
+        <td>12-09-2016</td>
+        <td><a href='#' onclick="alert('oops! not yet implemented')">Meet and Greet</a></td>
+        <td>An Evening Get together for all new members</td>
+      </tr>
+      <tr>
+        <td>13-010-2016</td>
+        <td><a href='#' onclick="alert('oops! not yet implemented')">NOB Mandurah</a></td>
+        <td>A Family education Program In Mandurah</td>
+      </tr>
+    </tbody>
+  </table>
+  </div 
+
+
+
+
+{% endblock %}

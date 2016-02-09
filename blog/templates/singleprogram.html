@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block content %}
+
+<style>
+.programstable thead tr th, .programstable tbody tr th {
+	background-color: #184D8C;
+	border: 1px solid black;
+	font-size: 14px;
+	padding: 8px;
+    border-collapse: collapse
+}
+.programstable tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+.programstable th {height:20px}
+
+
+</style>
+<h1>Upcommming Programs</h1>
+
+
+<div >
+<div class="table-responsive" > 
+  <table class="table table-condensed table-bordered programstable" >
+    <thead>
+      <tr>
+        <th >Program Name</th>
+        <th >Aim/Objective</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Achievers Seminar</td>
+        <td >This will be a two day information and networking meeting for young adults in the team</a></td>
+      </tr>
+    </tbody>
+  </table>
+  </div 
+</div><br><br>
+
+
+ <div class="table-responsive">
+
+  <table class="table table-hover table-bordered programstable"><strong>Task List</strong><br><br>
+    <thead>
+      <tr>
+        <th>Date Entered</th>
+        <th>Task</th>
+        <th>Status</th>
+		<th>Assigned To</th>
+        <th>Due Date</th>
+        <th></th>
+		<th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>12-10-2016</td>
+        <td>Print Fliers</a></td>
+        <td>Inprogress : The darft has been sent to the printshop.</td>
+        <td>Joseph Phiri</td>
+		<td>12-09-2016</a></td>
+        <td> <a href='#' onclick="alert('oops! not yet implemented')"><span class="glyphicon glyphicon-pencil"></span></a></td>
+		<td><a href='#' onclick="alert('OOPs! not yet implemented')"><span class="glyphicon glyphicon-trash"></span></a></td>
+      </tr>
+    </tbody>
+  </table>
+  </div 
+
+
+
+
+{% endblock %}

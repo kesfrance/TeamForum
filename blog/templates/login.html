@@ -1,20 +1,50 @@
-{% extends "base.html" %}
-{% block content %}
-<h3>TeamForum. A team management software.</h3> 
-<br>
-<h4>Login to participate.</h4>
-<br>
-<form role="form" method="POST">
-    <div class="form-group">
-        <label for="email">Email address</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Email address" required>
-    </div>
-    <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CEPerthForum</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+</head>
+<body class='authbox'>
+<br><br><br><br>
+{% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+       <div class="messageflash1">
+       {{ message }}
+       </div>
+       {% endfor %}
+       {% endif %}
+       {% endwith %}
+
+<br><br>
+<div class='actionbox' style='width: 500px; min-width:40%'>
+
+	 <center>
+    <div class='headbanner'>TeamForum</div>
+    </center>
+
+<form method='post'>
+<center>
+<table >
+    <tr><td colspan=2 ><h3>Log in</h3></td></tr>
+	<tr><td><input type='email' size='16' id='email' name='email' placeholder="Email address" required='required'></td>
+    <td>No  login? <a href="{{url_for('signup_get')}}" >Sign up here</a></td>
+    </tr>
+	<tr><td><input type=password size='16' id='password' name='password' placeholder="Password" required='required'></td></tr>
+	<tr><td colspan=2 class='loginbtn'><button class='btn' type="submit"><span>Login</span></button></td></tr>
+</table>
+</center>
 </form>
+</div>
 <br><br>
 
-{% endblock %}
+</body>
+</html>
+
+
