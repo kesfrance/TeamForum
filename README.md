@@ -39,6 +39,6 @@
 </code></pre>
 </li>
 </ol>
-<p> I am sure you can already see what you can use TeamForum for. I personally use TeamForum to communicate with the members of my social club. This is the initial part of the software, and will be releasing a more sophisticated version shortly. I will be glad to receive your comments and suggestions about new features and bugs. Just shoot me a mail @kesfrance@yahoo.com,  i will be glad to hear from you.</p> 
+
 
 
