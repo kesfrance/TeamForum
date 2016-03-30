@@ -10,9 +10,9 @@
 <p>TeamForum is a program I am developing to help people organize and manage their teams better. I have an idea to create an application for managing teams that I lead, now i am begining to put it into code. Effective communication is key to successful team management. Then,  I firmly believe that a well organized team is a winning team and would likely achieve more than a poorly organized one.</p>
 <p>Whether you are planning a field trip, organizing a program, or just for your day to day communication with colleagues and employees in your department or entire company, TeamForum can help you communicate better. </p>
 
-<p>At the moment the program has a online discussion forum and a program planning segments </p>
-<p> The Forum is working at the moment. The program planning utility will soon be put up. </p>
-<p><strong>I have listed some features of the forum below. Please have a look.</strong></p>
+<p>At the moment the program has a discussions forum and a program planning segments </p>
+<p><strong>I have listed some features below.</strong></p><br>
+<p><b>Chat Forum</b></p>
 <ol>
 <li><p>Once you sign up, you have become a member of the team.</p>
 </li>
@@ -40,5 +40,11 @@
 </li>
 </ol>
 
-
+<p><b>Program Planning Tool</b></p>
+<ol>
+<li>You can create a new program<li/>
+<li>Under a program you have created you can Create a list of task to be accomplished<li/>
+<li>When creating a task you can assign different tasks to members in the Forum and also apply due dates to the task<li/>
+<li>Under a program you also have an option to create a registration page if you are going to be registering people. The program allows you to record few information about the people registered. You will see the total number of people registered at the top of the registration table as you add new people<li/>
+</ol>
 
