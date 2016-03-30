@@ -43,8 +43,12 @@
 <p><b>Program Planning Tool</b></p>
 <ol>
 <li>You can create a new program</li>
+
 <li>Under a program you have created you can Create a list of task to be accomplished</li>
+
 <li>When creating a task you can assign different tasks to members in the Forum and also apply due dates to the task</li>
+
 <li>Under a program you also have an option to create a registration page if you are going to be registering people. The program allows you to record few information about the people registered. You will see the total number of people registered at the top of the registration table as you add new people</li>
+
 </ol>
 
