@@ -1,6 +1,6 @@
 ##TeamForum
 
-###A Team Management Application
+###A Demo Team Management Application
 
 <p><strong> Developer: Francis Kessie</strong></p>
 
